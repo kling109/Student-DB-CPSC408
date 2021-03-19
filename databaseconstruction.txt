@@ -1,0 +1,18 @@
+-- Debugging Method
+-- DROP TABLE Student;
+
+-- Creating the Student Table
+CREATE TABLE Student(
+    StudentId  INTEGER PRIMARY KEY,
+    FirstName TEXT,
+    LastName TEXT,
+    GPA REAL,
+    Major TEXT,
+    FacultyAdvisor TEXT,
+    Address TEXT,
+    City TEXT,
+    State TEXT,
+    ZipCode TEXT,
+    MobilePhoneNumber TEXT,
+    isDeleted INTEGER
+);
