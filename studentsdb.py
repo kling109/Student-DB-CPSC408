@@ -21,7 +21,7 @@ class StudentDB:
     student_cursor = None
 
     def __init__(self):
-        self.conn = sqlite3.connect("./students.sqlite")
+        self.conn = sqlite3.connect("./StudentDB.sqlite")
         self.student_cursor = self.conn.cursor()
 
 
